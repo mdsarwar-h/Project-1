@@ -1,0 +1,9 @@
+/*
+    Read.txt
+    Author: Md Sarwar Hossain
+    ID: 3191564
+    Date: 01/10/2024
+*/
+
+-> All files of Assignment 1 is saved in A1 folder. 
+-> The files are: page_about_html.html, page_about_css.html, images folder, A1.css and read me.txt.

@@ -1,0 +1,80 @@
+<!-- 
+    page_about_css.html 
+    Author: Md Sarwar Hossain
+    ID: 3191564
+    Date: 01/10/2024
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <!-- Title of the CSS page -->
+        <title>CSS</title>
+        <!-- Reset CSS file -->
+        <link rel="stylesheet" href="https://www.lusciousorange.com/basic_reset.css"/>
+        <!-- A1 CSS file -->
+        <link rel="stylesheet" href="A1.css"/>
+    </head>
+
+        
+    <body>
+        <!-- Header of the page -->
+        <div id="header">
+            <h1><strong>CSS</strong></h1>
+                <!-- Navigation of the links in the header -->
+                <ul id="navigation">
+                    <li><a href="page_about_html.html">HTML</a></li>
+                    <li><a href="page_about_css.html">CSS</a></li>
+                    <li><a href="https://www.google.com/">Google</a></li>
+                </ul>
+        </div>
+
+        <!-- Content of the CSS page -->
+        <div id="content_container">
+            <!-- First paragraph -->
+            <p id="first_paragraph">
+                <strong>Cascading Style Sheets (CSS)</strong> is a style sheet language used for describing the presentation 
+                of a document written in a markup language such as <strong>HTML</strong> or <strong>XML</strong>. <strong>CSS</strong> is a cornerstone 
+                technology of the <strong>World Wide Web</strong>, alongside <strong>HTML</strong> and <strong>JavaScript</strong>.
+            </p>
+
+            <!-- Second paragraph -->
+            <p>
+                <strong>CSS</strong> is designed to disable the separation of presentation and content, including layout, 
+                colors, and fonts. This separation can improve content accessibility; provide more flexibility 
+                and control in the specification of presentation characteristics; enable multiple web pages to 
+                share formatting by specifying the relevant <strong>CSS</strong> in a separate .css files, which reduces 
+                complexity and repetition in the structural content; and enable the .css file to be cached to 
+                improve the page speed between the pages that share the file and its formatting.
+            </p>
+
+            <!-- 2nd header -->
+            <h2><strong>The Box Model</strong></h2>
+
+            <!-- Box Model -->
+            
+            <!-- This box model uses nested "divs". This technique is taken from 
+                the geeksforgeeks. No code is copied, just the technique. I found
+                this technique very useful.
+                Link is below:
+                "https://www.geeksforgeeks.org/how-to-create-three-boxes-in-the-same-div-using-html-and-css/"
+            -->
+            
+            <div class="box_model" id="box4">Margin
+                <div class="box_model" id="box3">Border
+                    <div class="box_model" id="box2">Padding
+                        <div class="box_model" id="box1">Content</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CSS cup photo -->
+            <div id="photo"><img src="images/css-is-awesome.jpg"/></div>
+        </div>
+
+    </body>
+
+</html>
+<!-- End of CSS page -->
